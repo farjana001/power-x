@@ -54,6 +54,7 @@ h1, h2, h3{
   min-height: 100vh; 
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 .video{
   border: 10px solid rgb(5, 6, 19);
@@ -175,4 +176,16 @@ footer{
 .copyright>p{
   letter-spacing: 5px;
   color: rgb(221, 216, 216);
+}
+
+
+// PAGE STYLES//
+// ============= Styles of pricing page =========== //
+
+.price-header{
+  font-size: 80px;
+  margin-top: 100px;
+  font-weight: 200;
+  border-right: 1px solid $text-white;
+  padding: 20px 60px 20px 0;
 }

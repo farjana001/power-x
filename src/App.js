@@ -6,6 +6,7 @@ import {
   Route
 } from "react-router-dom";
 import Home from './Components/Home/Home/Home';
+import Pricing from './Components/Pages/Pricing/Pricing';
 
 
 function App() {
@@ -14,6 +15,12 @@ function App() {
       <Switch>
         <Route exact path="/">
           <Home />
+        </Route>
+        <Route path="/home">
+          <Home />
+        </Route>
+        <Route path="/pricing">
+          <Pricing />
         </Route>
       </Switch>
     </Router>

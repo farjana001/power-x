@@ -15,7 +15,7 @@ const Menubar = () => {
                         <Link className="menu-link" to="/adminLogin">Our Classes</Link>
                         <Link className="menu-link" to="/adminLogin">About Us</Link>
                         <Link className="menu-link" to="/adminLogin">Blog</Link>
-                        <Link className="menu-link" to="/adminLogin">Pricing</Link>
+                        <Link className="menu-link" to="/pricing">Pricing</Link>
                         <Link className="menu-link" to="/contact">Contact Us</Link>
                     </Nav>
                 </Navbar.Collapse>
