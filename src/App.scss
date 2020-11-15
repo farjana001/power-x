@@ -27,6 +27,9 @@ h2{
   text-decoration: $underline-none;
   color: $theme-color;
 }
+.navbar-hamburger {
+  background: #fff !important;
+}
 
 
 // ==========Styling of Header==========//
@@ -71,4 +74,38 @@ h2{
   background: none;
   border: 2px solid $theme-color;
   color: $text-white;
+}
+
+// ========== Styling of Services Area ========== //
+
+.service-body{
+  margin-top: 150px;
+  
+}
+.service-body h1{
+  font-family: $header-font;
+}
+.progression{
+  background-image: url(./images/banner/service-1.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 600px;
+  background-size: contain;
+  background-position: top center;
+}
+.workout{
+  background-image: url(./images/banner/service-2.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 600px;
+  background-size: contain;
+  background-position: top center;
+}
+.nutrition{
+  background-image: url(./images/banner/service-3.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 600px;
+  background-size: contain;
+  background-position: top center;
 }

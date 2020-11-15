@@ -11,11 +11,11 @@ const Header = () => {
                     <div className="row">
                         <div className="col-lg-6 col-md-12">
                             <h1 className="header-text">the best fitness <br /> studio in town</h1>
-                            <p className="header-para mt-3">POWER<span className="colored-text">X</span> is a functional fitness gym with a focus on unconventional training. We prioritize safety in our workouts while challenging you to move better and thrive. The MVMNT approach is a balance of mobility, strength, conditioning, and nutrition where quality is paramount.</p>
-                            <button className="btn-brand mt-3">JOIN US</button>
+                            <p className="header-para mt-3">POWER<span className="colored-text">X</span> is a functional fitness gym with a focus on unconventional training. We prioritize safety in our workouts while challenging you to move better and thrive. The POWERX approach is a balance of mobility, strength, conditioning, and nutrition where quality is paramount.</p>
+                            <button className="btn-brand my-3">JOIN US</button>
                         </div>
                         <div className="col-lg-6 col-md-12">
-                            <video className="video ml-4" controls>
+                            <video className="video" controls>
                                 <source src={workOut} type="video/mp4" />
                             </video>
                         </div>
