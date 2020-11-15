@@ -109,3 +109,22 @@ h2{
   background-size: contain;
   background-position: top center;
 }
+
+
+// ==========Style of about us section ==========// 
+
+.about-heading{
+  display: inline-block;
+  // padding: ;
+  font-family: $header-font;
+  color: gray;
+  border-right: 1px solid lightgray;
+}
+.dream-text{
+  color: $theme-color;
+  font-family: $header-font;
+  
+}
+.small-text{
+  line-height: 2;
+}
