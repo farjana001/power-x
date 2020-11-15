@@ -1,7 +1,7 @@
 @import './Styles/Style';
 
 
-h2{
+h1, h2, h3{
   font-family: $header-font;
 }
 
@@ -16,7 +16,7 @@ h2{
 }
 .colored-text{
   color: $theme-color;
-  font-weight: $extra-bold;
+  // font-weight: $extra-bold;
 }
 .menu-link{
   padding-right: 30px;
@@ -120,11 +120,31 @@ h2{
   color: gray;
   border-right: 1px solid lightgray;
 }
-.dream-text{
-  color: $theme-color;
-  font-family: $header-font;
-  
-}
 .small-text{
   line-height: 2;
+}
+
+// ========= Style of choose us section ========== // 
+
+.choose-us-body{
+  margin: 150px 0;
+}
+.choose-card>h4{
+  font-family: $header-font;
+  margin: 25px 0;
+}
+.choose-card>p{
+  color: rgb(83, 81, 81);
+}
+
+.choose-card{
+  background-color: #fff;
+  padding: 20px 0;
+   transition: all 0.5s ease;
+}
+.choose-card:hover{
+  cursor: pointer;
+  border: 2px solid $theme-color;
+  box-shadow: 5px 5px 10px rgb(197, 196, 196);
+  transform: scale(1.1);
 }

@@ -6,7 +6,7 @@ const Menubar = () => {
     return (
         <div className='container-fluid pt-2'>
             <Navbar className="pt-4" expand="lg">
-                <Link to="/home"  className="logo ml-3"><h1>POWER <span className="colored-text">X</span></h1></Link>
+                <Link to="/home"  className="logo ml-3"><h1>POWER <span className="colored-text font-weight-bold">X</span></h1></Link>
                 <Navbar.Toggle className="navbar-hamburger" aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ml-auto">

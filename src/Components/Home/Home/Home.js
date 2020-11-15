@@ -1,5 +1,6 @@
 import React from 'react';
 import AboutUs from '../AboutUs/AboutUs';
+import ChooseUs from '../ChooseUs/ChooseUs';
 import Header from '../Header/Header';
 import Services from '../Services/Services';
 
@@ -9,6 +10,7 @@ const Home = () => {
             <Header />
             <Services />
             <AboutUs />
+            <ChooseUs />
         </>
     );
 };
