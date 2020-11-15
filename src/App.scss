@@ -148,3 +148,31 @@ h1, h2, h3{
   box-shadow: 5px 5px 10px rgb(197, 196, 196);
   transform: scale(1.1);
 }
+
+// ========== Style of Footer Section =========== // 
+
+footer{
+  background-color: #171426;
+  padding: 70px 0 30px 0;
+}
+.footer-body h6{
+  margin-bottom: 30px;
+}
+.social-icon{
+  margin-left: -40px;
+}
+.social-icon li{
+  display: inline-block;
+  padding-right: 10px;
+  cursor: pointer;
+}
+.social-icon li>img{
+  width: 80%;
+}
+.copyright{
+  margin-top: 80px;
+}
+.copyright>p{
+  letter-spacing: 5px;
+  color: rgb(221, 216, 216);
+}
