@@ -1,7 +1,7 @@
 @import './Styles/Style';
 
 
-h1, h2, h3{
+h1, h2, h3, h4{
   font-family: $header-font;
 }
 
@@ -171,7 +171,7 @@ footer{
   width: 80%;
 }
 .copyright{
-  margin-top: 80px;
+  margin-top: 70px;
 }
 .copyright>p{
   letter-spacing: 5px;
@@ -182,10 +182,65 @@ footer{
 // PAGE STYLES//
 // ============= Styles of pricing page =========== //
 
-.price-header{
+.page-header{
   font-size: 80px;
   margin-top: 100px;
   font-weight: 200;
   border-right: 1px solid $text-white;
   padding: 20px 60px 20px 0;
+}
+.pricing-body{
+  margin-top: 100px;
+}
+.pricing-body>p{
+  letter-spacing: 1px;
+  margin: 20px 0 60px;
+}
+.advance-plan{
+  background-image: url(./images/pricing/pricing-1.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 600px;
+  background-size: contain;
+  background-position: top center;
+}
+.basic-plan{
+  background-image: url(./images/pricing/pricing-2.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 600px;
+  background-size: contain;
+  background-position: top center;
+}
+.beginner-plan{
+  background-image: url(./images/pricing/pricing-3.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 600px;
+  background-size: contain;
+  background-position: top center;
+}
+.price{
+  font-size: 70px;
+}
+.price-card-feature ul li{
+  list-style-type: none;
+  margin: 15px 0;
+  letter-spacing: 1px;
+}
+
+// ========== About us page=========// 
+.about-page{
+  margin: $page-margin;
+}
+
+// ========== Contact us page=========// 
+.contact-page{
+  margin: $page-margin;
+  background-color: rgba(23, 20, 38, 0.8);
+  padding: 40px 0 30px 0;
+  border-radius: 2px;
+}
+.contact-form{
+  padding: 0 30px;
 }

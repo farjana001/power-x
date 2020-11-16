@@ -11,10 +11,10 @@ const Menubar = () => {
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ml-auto">
                         <Link className="menu-link" to="/home">Home</Link>
-                        <Link className="menu-link" to="/order">Services</Link>
-                        <Link className="menu-link" to="/adminLogin">Our Classes</Link>
-                        <Link className="menu-link" to="/adminLogin">About Us</Link>
-                        <Link className="menu-link" to="/adminLogin">Blog</Link>
+                        <Link className="menu-link" to="/services">Services</Link>
+                        <Link className="menu-link" to="/ourClassed">Our Classes</Link>
+                        <Link className="menu-link" to="/aboutUs">About Us</Link>
+                        <Link className="menu-link" to="/blog">Blog</Link>
                         <Link className="menu-link" to="/pricing">Pricing</Link>
                         <Link className="menu-link" to="/contact">Contact Us</Link>
                     </Nav>
